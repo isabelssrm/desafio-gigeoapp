@@ -86,6 +86,15 @@ header {
   background-position: center;
 }
 
+@media (max-width: 576px) {
+  header {
+    background-image: url("../img/image-banner.png");
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
 .profile {
   padding-top: 2rem;
   padding-bottom: 0.5rem;
@@ -112,6 +121,13 @@ header {
   margin-left: auto;
 }
 
+@media (max-width: 576px) {
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .videos__card {
   display: flex;
   justify-content: space-around;
@@ -121,6 +137,7 @@ header {
 .card {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+  border: 0;
 }
 
 .videos__title {
@@ -133,6 +150,7 @@ header {
 .card-title {
   font-size: 1.1rem;
   font-weight: 800;
+  padding-top: 2rem;
 }
 
 .card-text {

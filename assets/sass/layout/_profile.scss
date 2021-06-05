@@ -27,3 +27,12 @@
         margin-left: auto;
     }
 }
+
+
+@media (max-width: 576px) {
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
