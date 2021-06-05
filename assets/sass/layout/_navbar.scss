@@ -1,0 +1,18 @@
+.navigation {
+    background-color: $white;
+    &__logo {
+        font-weight: 600;
+        position: relative;
+        font-size: 1.5em;
+    }
+
+    &__art {
+        font-size: 0.3em;
+        top: 8px;
+        position: absolute;
+    }
+}
+
+.nav-link i {
+    color: #000000;
+}
