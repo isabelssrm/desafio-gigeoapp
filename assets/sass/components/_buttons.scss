@@ -1,1 +1,15 @@
-//This file you will create your style for buttons inside of the project
+.button {
+    padding: .8rem;
+    font-family: $manrope;
+    color: $white;
+    border: 0;
+    width: 100px;
+    &--message {
+        background-color: $cyan;
+        margin-right: 1rem;
+    }
+
+    &--follow {
+        background-color: $watermelon;
+    }
+}

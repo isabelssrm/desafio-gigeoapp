@@ -88,7 +88,7 @@ header {
 
 .profile {
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 .profile__image {
   display: flex;
@@ -99,9 +99,44 @@ header {
   margin-right: 2rem;
 }
 .profile__title {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   padding-bottom: 0.5rem;
+}
+.profile__followers {
+  color: #6C6E70;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.profile__button {
+  margin-left: auto;
+}
+
+.videos__card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.videos__title {
+  font-size: 1.7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.card-text {
+  font-size: 0.9rem;
 }
 
 .profile__thumbnail {
@@ -110,6 +145,21 @@ header {
   height: 60px;
   width: 60px;
   margin-right: 2rem;
+}
+
+.button {
+  padding: 0.8rem;
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  border: 0;
+  width: 100px;
+}
+.button--message {
+  background-color: #96dae3;
+  margin-right: 1rem;
+}
+.button--follow {
+  background-color: #f1635f;
 }
 
 /*# sourceMappingURL=style.css.map */

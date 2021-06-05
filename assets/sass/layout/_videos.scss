@@ -1,0 +1,26 @@
+.videos__card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    
+}
+.videos__title {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: $semibold;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: $extrabold;
+}
+
+.card-text {
+    font-size: .9rem;
+}
